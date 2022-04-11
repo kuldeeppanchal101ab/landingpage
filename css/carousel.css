@@ -10,6 +10,8 @@
   /* color: $sc-5; */
   min-width: auto;
   padding: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
   /* background: rgba($sc-5, 0.4); */
@@ -58,6 +60,8 @@
   display: block;
   width: 16px;
   height: 16px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
   border: solid 1px #eeeef9;
   background-color: #eeeef9;
