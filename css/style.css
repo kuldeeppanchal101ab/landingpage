@@ -35,6 +35,10 @@ body {
   font-size: 18px;
   font-weight: normal;
   color: #67687d;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-flow: column;
   height: 100%;
@@ -53,7 +57,7 @@ a {
 a:hover,
 a:focus {
   color: #000;
-  /* text-decoration: underline; */
+  text-decoration: none;
 }
 
 .dd-landing .container,
@@ -340,9 +344,6 @@ a:focus {
   padding: 120px 0;
 }
 
-.how-it-works-contents {
-  background: url(../assets/images/car.png) left top no-repeat;
-}
 .dd-landing .how-it-works-contents .card {
   height: 520px;
   border: solid 1px #b5b6c8;
@@ -373,8 +374,6 @@ a:focus {
   width: 60px;
   height: 60px;
   bottom: 8px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
   left: 10px;
@@ -420,6 +419,10 @@ a:focus {
   padding: 60px 0 32px;
 }
 .dd-landing .c-stepper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
 }
@@ -433,8 +436,6 @@ a:focus {
   margin: auto;
   height: 94px;
   background: #ffd100;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 950%;
   border-radius: 50%;
 }
 .dd-landing .c-stepper__col:not(:last-child)::after {
@@ -502,6 +503,10 @@ a:focus {
   padding: 0 15px;
 }
 .dd-landing #footer .footer-adv {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
 }
 .dd-landing #footer .footer-adv a {
@@ -509,8 +514,6 @@ a:focus {
 }
 .dd-landing #footer .social-icon {
   padding: 4px 8px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   background-color: #eeeef9;
   margin: 0 0 0 16px;
@@ -536,6 +539,10 @@ a:focus {
   text-decoration: underline;
 }
 .dd-landing #footer .dealer-icons {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: flex-end;
 }
@@ -563,6 +570,10 @@ a:focus {
   background-color: #fff;
 }
 .dd-landing .contact {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: flex-start;
   background-color: #fff;
@@ -595,10 +606,7 @@ a:focus {
 
 .dd-landing .contact .contact-card {
   padding: 20px 10px 20px 20px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
-
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -614,6 +622,10 @@ a:focus {
   margin-top: 8px;
 }
 .dd-landing .contact .contact-card .__tel {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
 }
 .dd-landing .contact .contact-card .__tel a {
@@ -623,6 +635,10 @@ a:focus {
   color: #0055ff;
 }
 .dd-landing .contact .contact-card .__email {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: baseline;
 }
@@ -651,7 +667,12 @@ a:focus {
 .text-nc-3 {
   color: #67687d;
 }
-
+/* High Res desktop */
+@media screen and (min-width: 1920px) {
+  .dd-landing .how-it-works-contents {
+    background: url(../assets/images/car.png) left top no-repeat;
+  }
+}
 @media screen and (max-width: 1024px) {
   .dd-landing .contact .__list {
     grid-template-columns: repeat(2, 1fr);
@@ -712,14 +733,16 @@ a:focus {
     display: none;
   }
   .dd-landing .how-it-works .card-image-icon {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
   }
   .how-it-works-contents > .container {
     padding: 0 !important;
   }
-  .dd-landing .how-it-works-contents {
-    background: none;
-  }
+
   .dd-landing #footer {
     padding: 24px 0;
   }
@@ -812,6 +835,9 @@ a:focus {
   }
   .how-it-works-contents .slick-list .slick-slide:not(:last-child) {
     margin-right: 0px;
+  }
+  .dd-landing .how-it-works-contents .card {
+    height: 460px;
   }
   .dd-landing #locations .locations-content {
     margin-bottom: 24px;
