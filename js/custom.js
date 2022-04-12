@@ -2,9 +2,12 @@ $(document).ready(function () {
   $(".showcase-slider-wrapper").slick({
     arrows: false,
     slidesToShow: 1,
-    infinite: false,
+    infinite: true,
     dots: true,
     autoplay: true,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
   });
 
   $(".how-it-works-wrapper").slick({

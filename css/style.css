@@ -325,6 +325,11 @@ a:focus {
 .dd-landing .showcase .btn-primary {
   margin-bottom: 24px;
 }
+.dd-landing .showcase .slick-list {
+  box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
+  -moz-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
+}
 
 .dd-landing .showcase .slide {
   position: relative;
@@ -395,10 +400,13 @@ a:focus {
   margin-top: 35px;
 }
 .dd-landing #dealers .slide {
-  padding: 32px;
-  box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
+  padding: 30px 15px;
+}
+.dd-landing #dealers .slide .slide-content {
+  padding: 30px;
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
   -moz-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
+  box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
 }
 .dd-landing #dealers .slide p {
   font-size: 24px;
@@ -450,8 +458,8 @@ a:focus {
   display: block;
   position: absolute;
   top: 47px;
-  width: calc(100% - 128px);
-  left: calc(50% + 63px);
+  width: calc(100% - 122px);
+  left: calc(50% + 45px);
   height: 1px;
   background-color: #d8dae8;
   order: -1;
@@ -658,6 +666,15 @@ a:focus {
 .dd-landing .contact .contact-card .__email a:hover {
   color: #0055ff;
 }
+.dd-landing .login {
+  width: 630px;
+  margin: 0 auto;
+  padding: 32px 30px 28px;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
+  -moz-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
+  box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
+  background-color: #fff;
+}
 
 /* Form Component - start */
 .form-label {
@@ -668,6 +685,18 @@ a:focus {
 .form-control {
   border: 1px solid #d8dad8;
   color: #000000;
+  height: auto;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.45;
+}
+.form-select {
+  border: 1px solid #d8dad8;
+  color: #000000;
+  height: auto;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.45;
 }
 /* Form Component - end */
 
@@ -681,6 +710,17 @@ a:focus {
   }
 }
 @media screen and (max-width: 1024px) {
+  .dd-landing .pd-t-b-120 {
+    padding: 55px 0;
+  }
+  .dd-landing .stepper-wrapper {
+    padding: 20px 0 20px;
+  }
+  .dd-landing .showcase .container::after {
+    /* right: -24px;
+    width: 167px; */
+    display: none;
+  }
   .dd-landing .contact .__list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -854,7 +894,7 @@ a:focus {
     height: 490px;
   }
   .dd-landing .how-it-works-contents .card-body {
-    height: 230px;
+    height: 250px;
   }
 
   .dd-landing #footer .footer-adv {
@@ -912,6 +952,9 @@ a:focus {
   }
   .dd-landing .contact-card:not(:last-of-type) {
     margin-bottom: 20px;
+  }
+  .dd-landing .login {
+    width: 100%;
   }
 }
 /* Mobile - end */
