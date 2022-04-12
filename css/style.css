@@ -346,7 +346,7 @@ a:focus {
 
 .dd-landing .how-it-works-contents .card {
   height: 520px;
-  border: solid 1px #b5b6c8;
+  border: none;
 }
 
 .how-it-works-contents .slick-list .slick-slide:not(:last-child) {
@@ -360,9 +360,15 @@ a:focus {
   color: #222541;
 }
 .dd-landing .how-it-works .card-body {
-  /* border: 1px solid #b5b6c8; */
+  border: 1px solid #b5b6c8;
   border-top: none;
   padding: 43px 28px 28px;
+  height: 300px;
+}
+.dd-landing .how-it-works .card-img,
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 .dd-landing .how-it-works .card-image-wrapper {
   position: relative;
@@ -426,9 +432,10 @@ a:focus {
   display: flex;
   flex-direction: row;
 }
-.c-stepper__col {
+.dd-landing .c-stepper__col {
   flex: 1;
   position: relative;
+  padding-right: 30px;
 }
 .dd-landing .c-stepper__item {
   text-align: center;
@@ -743,6 +750,13 @@ a:focus {
     padding: 0 !important;
   }
 
+  .dd-landing #locations .heading-1 {
+    margin-top: 0px;
+  }
+  .dd-landing #locations .locations-content {
+    margin-bottom: 24px;
+  }
+
   .dd-landing #footer {
     padding: 24px 0;
   }
@@ -837,10 +851,10 @@ a:focus {
     margin-right: 0px;
   }
   .dd-landing .how-it-works-contents .card {
-    height: 460px;
+    height: 490px;
   }
-  .dd-landing #locations .locations-content {
-    margin-bottom: 24px;
+  .dd-landing .how-it-works-contents .card-body {
+    height: 230px;
   }
 
   .dd-landing #footer .footer-adv {
