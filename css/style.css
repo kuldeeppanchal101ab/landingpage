@@ -908,6 +908,9 @@ a:focus {
   .dd-landing #footer .dealer-icons a {
     margin-bottom: 15px;
   }
+  .dd-landing #footer .dealer-icons a + a {
+    margin-left: 20px;
+  }
   .dd-landing #footer .dealer-icons a:last-child {
     margin-bottom: 0;
   }
