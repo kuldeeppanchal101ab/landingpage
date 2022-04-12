@@ -582,7 +582,6 @@ a:focus {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
   -moz-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
   box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
-  background-color: #fff;
 }
 .dd-landing .contact {
   display: -webkit-box;
@@ -591,7 +590,6 @@ a:focus {
   display: -webkit-flex;
   display: flex;
   align-items: flex-start;
-  background-color: #fff;
 }
 .dd-landing .contact .__city {
   font-family: "gilroyextrabold";
@@ -673,7 +671,6 @@ a:focus {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
   -moz-box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
   box-shadow: 0 0 30px 0 rgba(0, 85, 255, 0.08);
-  background-color: #fff;
 }
 
 /* Form Component - start */
