@@ -42,6 +42,8 @@
 
 .slick-dots li {
   margin: 0 0.25rem;
+  border: 1px solid #eeeef9;
+  border-radius: 50%;
 }
 
 .slick-dots button {
@@ -54,9 +56,12 @@
   text-indent: -9999px;
   padding: 0;
 }
+.slick-dots li.slick-active {
+  border: 1px solid #0055ff;
+}
 
 .slick-dots li.slick-active button {
-  outline: 1px solid #0055ff;
-  border: 2px solid white;
+  /* outline: 1px solid #0055ff; */
+  border: 3px solid white;
   background-color: #0055ff;
 }

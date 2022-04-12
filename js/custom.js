@@ -4,6 +4,7 @@ $(document).ready(function () {
     slidesToShow: 1,
     infinite: false,
     dots: true,
+    autoplay: true,
   });
 
   $(".how-it-works-wrapper").slick({
@@ -50,6 +51,13 @@ $(document).ready(function () {
     infinite: false,
     dots: false,
     responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          dots: true,
+        },
+      },
       {
         breakpoint: 768,
         settings: {
