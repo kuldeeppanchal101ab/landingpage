@@ -1,9 +1,10 @@
 $(document).ready(function () {
-
   /* hamburger menu toggle - start */
-  $('.navbar-light .navbar-toggler').on('click', function () {
+  $(".navbar-light .navbar-toggler").on("click", function () {
     const navbarTimer = setTimeout(() => {
-      $(this).hasClass('collapsed') ? $('.navbar-toggler-menu-icon').removeClass('open') : $('.navbar-toggler-menu-icon').addClass('open');
+      $(this).hasClass("collapsed")
+        ? $(".navbar-toggler-menu-icon").removeClass("open")
+        : $(".navbar-toggler-menu-icon").addClass("open");
     }, 5);
     return () => clearTimeout(navbarTimer);
   });
@@ -26,6 +27,7 @@ $(document).ready(function () {
     slidesToShow: 3,
     infinite: false,
     dots: false,
+    // adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -85,5 +87,4 @@ $(document).ready(function () {
     $(".js-slider").slick("resize");
   });
   /* slick slider - end */
-
 });

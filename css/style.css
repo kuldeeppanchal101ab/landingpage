@@ -1,4 +1,4 @@
-/* Font Family  */
+/* Font Family - Start */
 @font-face {
   font-family: "gilroyextrabold";
   src: url("../assets/fonts/gilroy-extrabold-webfont.woff2") format("woff2"),
@@ -25,16 +25,18 @@
   font-style: normal;
   font-display: swap;
 }
+/* Font Family - End */
+
 html {
   font-size: 18px;
   height: 100%;
-  background: #fff;
+  background: var(--nc-7);
 }
 body {
   font-family: "roboto";
   font-size: 18px;
   font-weight: normal;
-  color: #67687d;
+  color: var(--nc-3);
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -51,12 +53,12 @@ body {
   -ms-transition: all 300ms ease-out;
 }
 a {
-  color: #67687d;
+  color: var(--nc-3);
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #000;
+  color: var(--nc-1);
   text-decoration: none;
 }
 
@@ -86,12 +88,13 @@ a:focus {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 /* Header Navigation - start */
 .dd-landing .navbar {
-  background: #fff;
-  box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
+  background: var(--nc-7);
+  box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  -webkit-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  -moz-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
   padding: 0;
 }
 .dd-landing .nav-item .nav-link {
@@ -102,7 +105,7 @@ a:focus {
   line-height: 1.19;
   letter-spacing: normal;
   text-align: left;
-  color: #000;
+  color: var(--nc-1);
 }
 
 .dd-landing .navbar-nav .nav-item {
@@ -110,11 +113,11 @@ a:focus {
   position: relative;
 }
 .dd-landing .navbar-light .navbar-nav .nav-link {
-  color: #000;
+  color: var(--nc-1);
 }
 .dd-landing .navbar-light .navbar-nav .nav-link:focus,
 .dd-landing .navbar-light .navbar-nav .nav-link:hover {
-  color: #000;
+  color: var(--nc-1);
 }
 .dd-landing .navbar-light .navbar-nav .nav-item::after {
   content: "";
@@ -124,7 +127,7 @@ a:focus {
   bottom: 0;
   height: 4px;
   position: absolute;
-  background-color: #ffd100;
+  background-color: var(--pc-1);
   transition: all ease-in-out 0.2s;
 }
 .dd-landing .navbar-light .navbar-nav .nav-item:focus::after,
@@ -138,10 +141,10 @@ a:focus {
 .dd-landing .navbar-light .navbar-nav .nav-link.active,
 .dd-landing .navbar-light .navbar-nav .nav-link.show,
 .dd-landing .navbar-light .navbar-nav .show > .nav-link {
-  color: #000;
+  color: var(--nc-1);
 }
 .dd-landing .navbar-light .navbar-toggler {
-  color: #000;
+  color: var(--nc-1);
   padding: 0;
   font-size: 1.25rem;
   border: none;
@@ -194,10 +197,10 @@ a:focus {
   transition: 0.25s ease-in-out;
 }
 .dd-landing .navbar-toggler-menu-icon span {
-  background: #000;
+  background: var(--nc-1);
 }
 .dd-landing .navbar-toggler-menu-icon.open span {
-  background: #ffd100;
+  background: var(--pc-1);
 }
 .dd-landing .navbar-toggler-menu-icon span:nth-child(1) {
   top: 0px;
@@ -253,10 +256,10 @@ a:focus {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 3px 6px 0 rgba(255, 209, 0, 0.2);
-  -moz-box-shadow: 0 3px 6px 0 rgba(255, 209, 0, 0.2);
-  box-shadow: 0 3px 6px 0 rgba(255, 209, 0, 0.2);
-  background: #ffd100;
+  -webkit-box-shadow: 0 3px 6px 0 var(--bx-shadow-2);
+  -moz-box-shadow: 0 3px 6px 0 var(--bx-shadow-2);
+  box-shadow: 0 3px 6px 0 var(--bx-shadow-2);
+  background: var(--pc-1);
   font-family: "roboto";
   font-size: 16px;
   font-weight: bold;
@@ -265,20 +268,19 @@ a:focus {
   line-height: 1.19;
   letter-spacing: normal;
   text-align: center;
-  color: #000;
+  color: var(--nc-1);
   border: none;
 }
 .dd-landing .btn-primary:not(:disabled):not(.disabled).active,
 .dd-landing .btn-primary:not(:disabled):not(.disabled):active,
 .dd-landing .show > .btn-primary.dropdown-toggle,
 .dd-landing .btn-primary:not(:disabled):not(.disabled):hover {
-  color: #000;
-  background: #ffd100;
+  color: var(--nc-1);
+  background: var(--pc-1);
   border: none;
-  box-shadow: 0 10px 20px 0 rgba(255, 209, 0, 0.2);
-  -webkit-box-shadow: 0 10px 20px 0 rgba(255, 209, 0, 0.2);
-  -moz-box-shadow: 0 10px 20px 0 rgba(255, 209, 0, 0.2);
-  box-shadow: 0 10px 20px 0 rgba(255, 209, 0, 0.2);
+  box-shadow: 0 10px 20px 0 var(--bx-shadow-1);
+  -webkit-box-shadow: 0 10px 20px 0 var(--bx-shadow-1);
+  -moz-box-shadow: 0 10px 20px 0 var(--bx-shadow-1);
 }
 /* Button - end */
 
@@ -287,7 +289,6 @@ a:focus {
   padding: 72px 0;
   background: url(../assets/images/banner-artwork-top.png) left top no-repeat,
     url(../assets/images/banner-artwork.png) bottom no-repeat;
-  /* border-bottom: 3px solid #ffd100; */
   flex: 1 1 auto;
 }
 
@@ -295,7 +296,7 @@ a:focus {
   padding: 72px 0;
   background: url(../assets/images/banner-artwork-top.png) left top no-repeat,
     url(../assets/images/banner-artwork.png) bottom no-repeat;
-  border-bottom: 1px solid #b5b6c8;
+  border-bottom: 1px solid var(--nc-4);
   flex: 1 1 auto;
 }
 .dd-landing .showcase .container {
@@ -317,7 +318,7 @@ a:focus {
   font-size: 56px;
   font-weight: 800;
   line-height: 1.21;
-  color: #222541;
+  color: var(--nc-2);
 }
 .dd-landing .showcase p {
   font-size: 24px;
@@ -325,10 +326,18 @@ a:focus {
 .dd-landing .showcase .btn-primary {
   margin-bottom: 24px;
 }
+.dd-landing .slick-track {
+  display: flex;
+}
+.dd-landing .slick-slide {
+  height: auto;
+  display: flex !important;
+  flex: 1;
+}
 .dd-landing .showcase .slick-list {
-  box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
+  box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  -webkit-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  -moz-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
 }
 
 .dd-landing .showcase .slide {
@@ -342,7 +351,7 @@ a:focus {
   right: 0;
   width: 50%;
   height: 12px;
-  background-color: #ffd100;
+  background-color: var(--pc-1);
 }
 
 .dd-landing .pd-t-b-120 {
@@ -350,7 +359,7 @@ a:focus {
 }
 
 .dd-landing .how-it-works-contents .card {
-  height: 520px;
+  /* height: 520px; */
   border: none;
 }
 
@@ -362,13 +371,13 @@ a:focus {
   font-family: "gilroyextrabold";
   font-size: 24px;
   line-height: 1.21;
-  color: #222541;
+  color: var(--nc-2);
 }
 .dd-landing .how-it-works .card-body {
-  border: 1px solid #b5b6c8;
+  border: 1px solid var(--nc-4);
   border-top: none;
   padding: 43px 28px 28px;
-  height: 300px;
+  /* height: 300px; */
 }
 .dd-landing .how-it-works .card-img,
 .card-img-top {
@@ -381,7 +390,7 @@ a:focus {
 .dd-landing .how-it-works .card-image-icon {
   display: none;
   position: absolute;
-  background-color: #ffd100;
+  background-color: var(--pc-1);
   width: 60px;
   height: 60px;
   bottom: 8px;
@@ -394,7 +403,7 @@ a:focus {
 }
 .dd-landing #locations {
   padding: 23px 0 18px;
-  background-color: #eeeef9;
+  background-color: var(--nc-6);
 }
 .dd-landing #locations .heading-1 {
   margin-top: 35px;
@@ -403,12 +412,16 @@ a:focus {
   padding: 30px 15px;
 }
 .dd-landing #dealers .slide .slide-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 30px;
-  -webkit-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  -moz-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  box-shadow: 0 0 25px 0 var(--bx-shadow-1);
 }
 .dd-landing #dealers .slide p {
+  flex: 1;
   font-size: 24px;
   font-weight: bold;
   font-stretch: normal;
@@ -416,17 +429,17 @@ a:focus {
   line-height: 1.5;
   letter-spacing: normal;
   text-align: left;
-  color: #222541;
+  color: var(--nc-2);
 }
 .dd-landing #dealers .slide .dealer-title {
   font-size: 16px;
   font-weight: bold;
-  color: #222541;
+  color: var(--nc-2);
   padding-left: 12px;
 }
 .dd-landing #dealers .slide .company-name {
   font-size: 12px;
-  color: #222541;
+  color: var(--nc-2);
   padding-left: 12px;
 }
 .dd-landing .stepper-wrapper {
@@ -443,14 +456,14 @@ a:focus {
 .dd-landing .c-stepper__col {
   flex: 1;
   position: relative;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 .dd-landing .c-stepper__item {
   text-align: center;
   width: 94px;
   margin: auto;
   height: 94px;
-  background: #ffd100;
+  background: var(--pc-1);
   border-radius: 50%;
 }
 .dd-landing .c-stepper__col:not(:last-child)::after {
@@ -458,10 +471,10 @@ a:focus {
   display: block;
   position: absolute;
   top: 47px;
-  width: calc(100% - 122px);
-  left: calc(50% + 45px);
+  width: calc(100% - 120px);
+  left: calc(50% + 50px);
   height: 1px;
-  background-color: #d8dae8;
+  background-color: var(--nc-5);
   order: -1;
 }
 .dd-landing #partners .partners-slider-wrapper {
@@ -481,7 +494,7 @@ a:focus {
   font-style: normal;
   line-height: 1.23;
   letter-spacing: normal;
-  color: #222541;
+  color: var(--nc-2);
 }
 .dd-landing .heading-3 {
   font-family: "gilroyextrabold";
@@ -492,14 +505,14 @@ a:focus {
   line-height: 1.22;
   letter-spacing: normal;
   text-align: left;
-  color: #222541;
+  color: var(--nc-2);
 }
 /* Middle content - End */
 
 /* Footer - Start */
 .dd-landing #footer {
   padding: 60px 0 24px;
-  border-top: 3px solid #ffd100;
+  border-top: 3px solid var(--pc-1);
 }
 
 .dd-landing #footer .faq-link,
@@ -530,14 +543,14 @@ a:focus {
 .dd-landing #footer .social-icon {
   padding: 4px 8px;
   border-radius: 5px;
-  background-color: #eeeef9;
+  background-color: var(--nc-6);
   margin: 0 0 0 16px;
   width: 36px;
   height: 36px;
   display: inline-block;
 }
 .dd-landing #footer .social-icon:hover {
-  background-color: #ffd100;
+  background-color: var(--pc-1);
 }
 
 .dd-landing #footer .small-text {
@@ -576,10 +589,10 @@ a:focus {
 /* Footer - End */
 
 .dd-landing .dd-card {
-  -webkit-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  background-color: #fff;
+  -webkit-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  -moz-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  background-color: var(--nc-7);
 }
 
 .dd-landing .contactus {
@@ -600,16 +613,16 @@ a:focus {
   font-size: 32px;
   font-weight: 800;
   line-height: 1.25;
-  color: #222541;
+  color: var(--nc-2);
   margin-top: 40px;
   margin-bottom: 28px;
 }
 .dd-landing .contact .__left {
   padding: 32px;
   width: 370px;
-  -webkit-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
-  box-shadow: 0 0 25px 0 rgb(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  -moz-box-shadow: 0 0 25px 0 var(--bx-shadow-1);
+  box-shadow: 0 0 25px 0 var(--bx-shadow-1);
 }
 .dd-landing .contact .__right {
   margin-left: 30px;
@@ -624,13 +637,13 @@ a:focus {
 .dd-landing .contact .contact-card {
   padding: 20px 10px 20px 20px;
   border-radius: 4px;
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  background-color: #f9f9fe;
+  -webkit-box-shadow: 0 3px 6px 0 var(--bx-shadow-3);
+  -moz-box-shadow: 0 3px 6px 0 var(--bx-shadow-3);
+  box-shadow: 0 3px 6px 0 var(--bx-shadow-3);
+  background-color: var(--nc-10);
   font-family: Roboto;
   font-size: 20px;
-  color: #222541;
+  color: var(--nc-2);
   max-width: 370px;
 }
 .dd-landing .contact .contact-card .__salesname {
@@ -646,10 +659,10 @@ a:focus {
   display: flex;
 }
 .dd-landing .contact .contact-card .__tel a {
-  color: #222541;
+  color: var(--nc-2);
 }
 .dd-landing .contact .contact-card .__tel a:hover {
-  color: #0055ff;
+  color: var(--sc-1);
 }
 .dd-landing .contact .contact-card .__email {
   display: -webkit-box;
@@ -660,13 +673,13 @@ a:focus {
   align-items: baseline;
 }
 .dd-landing .contact .contact-card .__email a {
-  color: #222541;
+  color: var(--nc-2);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 .dd-landing .contact .contact-card .__email a:hover {
-  color: #0055ff;
+  color: var(--sc-1);
 }
 .dd-landing .login {
   width: 630px;
@@ -678,19 +691,19 @@ a:focus {
 .form-label {
   font-family: Roboto;
   font-size: 16px;
-  color: #67687d;
+  color: var(--nc-3);
 }
 .form-control {
-  border: 1px solid #d8dad8;
-  color: #000000;
+  border: 1px solid var(--nc-8);
+  color: var(--nc-1) 000;
   height: auto;
   padding: 10px;
   font-size: 18px;
   line-height: 1.45;
 }
 .form-select {
-  border: 1px solid #d8dad8;
-  color: #000000;
+  border: 1px solid var(--nc-8);
+  color: var(--nc-1) 000;
   height: auto;
   padding: 10px;
   font-size: 18px;
@@ -699,7 +712,7 @@ a:focus {
 /* Form Component - end */
 
 .text-nc-3 {
-  color: #67687d;
+  color: var(--nc-3);
 }
 /* High Res desktop */
 @media screen and (min-width: 1920px) {
@@ -830,11 +843,11 @@ a:focus {
     margin: 0 15px 0 0;
   }
   .dd-landing .navbar-nav {
-    border-top: 1px solid #eeeef9;
+    border-top: 1px solid var(--nc-6);
   }
   .dd-landing .navbar-nav .nav-item {
     margin: 0;
-    border-bottom: 1px solid #eeeef9;
+    border-bottom: 1px solid var(--nc-6);
   }
   .dd-landing .navbar-light .navbar-nav .nav-item:focus::after,
   .dd-landing .navbar-light .navbar-nav .nav-item:hover::after,
@@ -845,7 +858,7 @@ a:focus {
   .dd-landing .navbar-light .navbar-nav .nav-link.active,
   .dd-landing .navbar-light .navbar-nav .nav-link.show,
   .dd-landing .navbar-light .navbar-nav .show > .nav-link {
-    background-color: #ffd100;
+    background-color: var(--pc-1);
   }
   .dd-landing .navbar-nav .nav-link {
     padding: 15px;
@@ -889,7 +902,7 @@ a:focus {
     margin-right: 0px;
   }
   .dd-landing .how-it-works-contents .card {
-    height: 490px;
+    /* height: 490px; */
   }
   .dd-landing .how-it-works-contents .card-body {
     height: 250px;
@@ -919,7 +932,7 @@ a:focus {
     padding: 15px 0 0 0px;
   }
   .dd-landing #footer .footer-link {
-    border-top: 1px solid #dee2e6;
+    border-top: 1px solid var(--nc-9);
   }
 
   .dd-landing .middle-container {

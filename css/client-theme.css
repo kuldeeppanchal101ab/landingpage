@@ -1,87 +1,24 @@
-html {
-  background: #fff;
-}
-body {
-  color: #67687d;
-}
-a {
-  color: #67687d;
-}
-a:hover,
-a:focus {
-  color: #000;
-}
+:root {
+  /* Primary Color */
+  --pc-1: #ffd100;
 
-.dd-landing .navbar {
-  background: #fff;
-}
-.dd-landing .nav-item .nav-link {
-  color: #000;
-}
-.dd-landing .navbar-light .navbar-nav .nav-link {
-  color: #000;
-}
-.dd-landing .navbar-light .navbar-nav .nav-link:focus,
-.dd-landing .navbar-light .navbar-nav .nav-link:hover {
-  color: #000;
-}
-.dd-landing .navbar-light .navbar-nav .nav-item::after {
-  background-color: #ffd100;
-}
+  /* Secondary Color */
+  --sc-1: #0055ff;
 
-.dd-landing .navbar-light .navbar-nav .active > .nav-link,
-.dd-landing .navbar-light .navbar-nav .nav-link.active,
-.dd-landing .navbar-light .navbar-nav .nav-link.show,
-.dd-landing .navbar-light .navbar-nav .show > .nav-link {
-  color: #000;
-}
-.dd-landing .navbar-light .navbar-toggler {
-  color: #000;
-}
+  /* Neutral  color */
+  --nc-1: #000;
+  --nc-2: #222541;
+  --nc-3: #67687d;
+  --nc-4: #b5b6c8;
+  --nc-5: #d8dae8;
+  --nc-6: #eeeef9;
+  --nc-7: #fff;
+  --nc-8: #d8dad8;
+  --nc-9: #dee2e6;
+  --nc-10: #f9f9fe;
 
-.dd-landing .navbar-toggler-menu-icon span {
-  background: #000;
-}
-.dd-landing .navbar-toggler-menu-icon.open span {
-  background: #ffd100;
-}
-.dd-landing .btn-primary {
-  background: #ffd100;
-  color: #000;
-}
-.dd-landing .btn-primary:not(:disabled):not(.disabled).active,
-.dd-landing .btn-primary:not(:disabled):not(.disabled):active,
-.dd-landing .show > .btn-primary.dropdown-toggle,
-.dd-landing .btn-primary:not(:disabled):not(.disabled):hover {
-  color: #000;
-  background: #ffd100;
-}
-
-.dd-landing .showcase .slide:after {
-  background-color: #ffd100;
-}
-
-.dd-landing .how-it-works .card-image-icon {
-  background-color: #ffd100;
-}
-.dd-landing .c-stepper__item {
-  background: #ffd100;
-}
-
-.dd-landing #footer {
-  border-top: 3px solid #ffd100;
-}
-.dd-landing #footer .social-icon {
-  background-color: #eeeef9;
-}
-.dd-landing #footer .social-icon:hover {
-  background-color: #ffd100;
-}
-@media screen and (max-width: 767px) {
-  .dd-landing .navbar-light .navbar-nav .active > .nav-link,
-  .dd-landing .navbar-light .navbar-nav .nav-link.active,
-  .dd-landing .navbar-light .navbar-nav .nav-link.show,
-  .dd-landing .navbar-light .navbar-nav .show > .nav-link {
-    background-color: #ffd100;
-  }
+  /* box-shadow */
+  --bx-shadow-1: rgba(0, 0, 0, 0.15);
+  --bx-shadow-2: rgba(255, 209, 0, 0.2);
+  --bx-shadow-3: rgba(0, 0, 0, 0.16);
 }
