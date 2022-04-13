@@ -20,6 +20,7 @@ $(document).ready(function () {
     pauseOnFocus: false,
     pauseOnHover: false,
     pauseOnDotsHover: false,
+    fade: true
   });
 
   $(".how-it-works-wrapper").slick({
@@ -84,7 +85,7 @@ $(document).ready(function () {
   });
 
   $(window).on("resize orientationchange", function () {
-    $(".js-slider").slick("resize");
+    $(".slick-slider").slick("resize");
   });
   /* slick slider - end */
 });
