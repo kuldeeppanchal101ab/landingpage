@@ -695,7 +695,7 @@ a:focus {
 }
 .form-control {
   border: 1px solid var(--nc-8);
-  color: var(--nc-1) 000;
+  color: var(--nc-1);
   height: auto;
   padding: 10px;
   font-size: 18px;
@@ -703,7 +703,7 @@ a:focus {
 }
 .form-select {
   border: 1px solid var(--nc-8);
-  color: var(--nc-1) 000;
+  color: var(--nc-1);
   height: auto;
   padding: 10px;
   font-size: 18px;
