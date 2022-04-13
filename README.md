@@ -20,7 +20,7 @@ Landing Page
   - carousel.css
     **Carousel CSS**
   - client-theme.css
-    **Branding CSS**
+    **Branding CSS for branding, we can change the color scheme based on client branding.**
   - slick.css
     **Slick Carousel CSS**
   - style.css
