@@ -456,7 +456,9 @@ a:focus {
 .dd-landing .c-stepper__col {
   flex: 1;
   position: relative;
-  padding-right: 20px;
+}
+.dd-landing .c-stepper__col:not(:last-child) {
+  padding-right: 30px;
 }
 .dd-landing .c-stepper__item {
   text-align: center;
@@ -471,8 +473,8 @@ a:focus {
   display: block;
   position: absolute;
   top: 47px;
-  width: calc(100% - 120px);
-  left: calc(50% + 50px);
+  width: calc(100% - 122px);
+  left: calc(50% + 45px);
   height: 1px;
   background-color: var(--nc-5);
   order: -1;
@@ -865,6 +867,7 @@ a:focus {
   }
   .dd-landing .signup-btn {
     margin: 15px;
+    display: inline-block;
   }
   .dd-landing .pd-t-b-120 {
     padding: 40px 0;
