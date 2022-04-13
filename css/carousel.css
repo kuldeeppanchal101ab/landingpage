@@ -55,6 +55,7 @@
   background-color: #eeeef9;
   text-indent: -9999px;
   padding: 0;
+  outline: 0;
 }
 .slick-dots li.slick-active {
   border: 1px solid #0055ff;
