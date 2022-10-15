@@ -1264,10 +1264,11 @@ a:focus {
 .banner-section {
   position: relative;
 }
-.banner-section .btn {
+.banner-section .btn-container {
   position: absolute;
-  bottom: 70px;
-  right: 15%;
+  bottom: 10%;
+  left: calc(50% + 0px);
+  right: 30px;
 }
 .dd-landing .banner-section .btn-primary {
   font-size: 24px;
@@ -1407,16 +1408,32 @@ a:focus {
   .hero-image-banner {
     content: url("../images/hero-image-mobile.png");
   }
-  .banner-section .btn {
-    position: absolute;
+  .banner-section .btn-container {
     bottom: 20px;
-    right: 10px;
-    left: 10px;
+    right: 0;
+    left: 0;
   }
-  .dd-landing .banner-section .btn-primary {
+  .banner-section .btn-container .btn-primary {
     font-size: 16px;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner-section .btn-container {
+    bottom: 5%;
+  }
+  .banner-section .btn-container .btn-primary {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .banner-section .btn-container {
+    bottom: 8%;
+  }
+  .banner-section .btn-container .btn-primary {
+    font-size: 16px;
+  }
+}
+
 .how-it-works {
   padding: 0 0 180px 0;
   background: url(../images/footer-artwork.png) bottom no-repeat;
