@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Group_7001" data-name="Group 7001" transform="translate(-768 -288)">
+    <g id="Group_7001-2" data-name="Group 7001" transform="translate(0 3)">
+      <rect id="Rectangle_9746" data-name="Rectangle 9746" width="2" height="15" transform="translate(791 295)" fill="#191919"/>
+      <rect id="Rectangle_9747" data-name="Rectangle 9747" width="2" height="10.675" transform="translate(791 309.904) rotate(-45)" fill="#191919"/>
+    </g>
+    <g id="Group_7002" data-name="Group 7002">
+      <rect id="Rectangle_9748" data-name="Rectangle 9748" width="2" height="9" transform="translate(796.908 329.636) rotate(-45)" fill="#191919"/>
+      <rect id="Rectangle_9749" data-name="Rectangle 9749" width="18" height="2" transform="translate(801.858 334.586) rotate(-45)" fill="#191919"/>
+    </g>
+    <path id="Path_7680" data-name="Path 7680" d="M792,288a24,24,0,0,0,0,48c.336,0,.667-.018,1-.032v-2c-.332.015-.664.035-1,.035a22,22,0,1,1,21.165-16h2.079A24.021,24.021,0,0,0,792,288Z" fill="#191919" fill-rule="evenodd"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+:root {
+  /* Primary Color */
+  --pc-1: #ff5f00;
+
+  /* Secondary Color */
+  --sc-1: #0055ff;
+
+  /* Tertiary Color */
+  --tc-1: #1bb965;
+  --tc-2: #f52d2d;
+
+  /* Neutral  color */
+  --nc-1: #191919;
+  --nc-2: #222541;
+  --nc-3: #67687d;
+  --nc-4: #b5b6c8;
+  --nc-5: #d8dae8;
+  --nc-6: #eeeef9;
+  --nc-7: #fff;
+  --nc-8: #d8dad8;
+  --nc-9: #dee2e6;
+  --nc-10: #f9f9fe;
+
+  /* box-shadow */
+  --bx-shadow-1: rgba(0, 0, 0, 0.15);
+  --bx-shadow-2: rgba(255, 209, 0, 0.2);
+  --bx-shadow-3: rgba(0, 0, 0, 0.16);
+}
