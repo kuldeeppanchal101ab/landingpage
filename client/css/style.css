@@ -80,11 +80,11 @@ body {
   height: 100%;
 }
 * {
-  -moz-transition: all 300ms ease-out;
-  -o-transition: all 300ms ease-out;
-  -webkit-transition: all 300ms ease-out;
-  transition: all 300ms ease-out;
-  -ms-transition: all 300ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
 }
 a {
   color: var(--nc-3);
@@ -350,7 +350,6 @@ a:focus {
 .dd-landing .showcase .heading-1 {
   font-family: "robotocondensedbold";
   font-size: 56px;
-  font-weight: 800;
   line-height: 1.21;
   color: var(--nc-2);
 }
@@ -528,19 +527,15 @@ a:focus {
 }
 .dd-landing .heading-1 {
   font-family: "robotocondensedbold";
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 24px;  
   font-stretch: condensed;
-  font-style: normal;
   color: var(--nc-1);
   text-transform: uppercase;
 }
 .dd-landing .heading-3 {
   font-family: "robotocondensedbold";
   font-size: 18px;
-  font-weight: bold;
   font-stretch: condensed;
-  font-style: normal;
   text-align: left;
   color: var(--nc-1);
   margin-bottom: 16px;
@@ -558,9 +553,7 @@ a:focus {
   line-height: normal;
   padding-top: 10px;
 }
-.dd-landing .footer-dealer-info .social-icon:hover {
-  border: 1px solid var(--nc-4);
-}
+
 
 .dd-landing #footer .faq-link,
 .dd-landing #footer .faq-link-separator {
@@ -597,13 +590,19 @@ a:focus {
   margin-right: 0;
 }
 .dd-landing #footer .social-icon {
-  /* padding: 4px 8px; */
+  padding: 4px;
   border-radius: 5px;
   margin: 0 0 0 12px;
   width: 32px;
   height: 32px;
+  border: 1px solid transparent;
 }
-
+.dd-landing #footer .dealer-icons a.social-icon:hover {
+  border-color: var(--nc-4);
+}
+.dd-landing #footer .dealer-icons a.social-icon:hover img {
+  opacity: 1;
+}
 .dd-landing #footer .heading-3 {
   margin-bottom: 0;
 }
@@ -625,6 +624,9 @@ a:focus {
   text-decoration: underline;
   color: var(--nc-1);
 }
+.dd-landing #footer .small-text .small-text-link:hover {
+  text-decoration: none;
+}
 .dd-landing #footer .dealer-icons {
   display: -webkit-box;
   display: -moz-box;
@@ -637,7 +639,6 @@ a:focus {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  line-height: 32px;
   text-align: center;
 }
 
@@ -672,7 +673,6 @@ a:focus {
 .dd-landing .contact .__city {
   font-family: "robotocondensedbold";
   font-size: 32px;
-  font-weight: 800;
   line-height: 1.25;
   color: var(--nc-2);
   margin-top: 40px;
@@ -1026,7 +1026,6 @@ a:focus {
 .dd-landing .signup-form-header-title {
   font-family: "robotocondensedbold";
   font-size: 40px;
-  font-weight: 800;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.23;
@@ -1039,7 +1038,6 @@ a:focus {
 .dd-landing h5 {
   font-family: "robotocondensedbold";
   font-size: 32px;
-  font-weight: 800;
   line-height: 1.25;
   color: var(--nc-2);
   margin-top: 40px;
@@ -1048,7 +1046,6 @@ a:focus {
 .dd-landing legend {
   font-family: "robotocondensedbold";
   font-size: 24px;
-  font-weight: 800;
   line-height: 1.25;
   color: var(--nc-2);
   margin-top: 20px;
@@ -1206,7 +1203,6 @@ a:focus {
 .dd-landing .modal .modal-header h1 {
   font-family: "robotocondensedbold";
   font-size: 28px;
-  font-weight: 800;
   line-height: 1.23;
   letter-spacing: normal;
   color: var(--nc-2);
