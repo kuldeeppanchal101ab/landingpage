@@ -3,7 +3,7 @@
   --pc-1: #ff5f00;
 
   /* Secondary Color */
-  --sc-1: #0055ff;
+  --sc-1: #191919;
 
   /* Tertiary Color */
   --tc-1: #1bb965;
@@ -23,6 +23,6 @@
 
   /* box-shadow */
   --bx-shadow-1: rgba(0, 0, 0, 0.15);
-  --bx-shadow-2: rgba(255, 209, 0, 0.2);
+  --bx-shadow-2: rgba(255, 106, 0, 0.2);
   --bx-shadow-3: rgba(0, 0, 0, 0.16);
 }

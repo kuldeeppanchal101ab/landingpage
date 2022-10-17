@@ -309,8 +309,8 @@ a:focus {
 .dd-landing .btn-primary:not(:disabled):not(.disabled):active,
 .dd-landing .show > .btn-primary.dropdown-toggle,
 .dd-landing .btn-primary:not(:disabled):not(.disabled):hover {
-  color: var(--nc-1);
-  background: var(--pc-1);
+  color: var(--nc-7);
+  background: var(--sc-1);
   border: none;
   box-shadow: 0 10px 20px 0 var(--bx-shadow-1);
   -webkit-box-shadow: 0 10px 20px 0 var(--bx-shadow-1);
@@ -1129,7 +1129,6 @@ a:focus {
 .dd-landing .card .card-text a {
   color: var(--nc-2);
 }
-.dd-landing .card .card-text:hover,
 .card .card-text a:hover {
   color: var(--sc-1);
 }
@@ -1349,6 +1348,11 @@ a:focus {
   width: 253px !important;
   /* margin:0 0 3rem 20px; */
   /* width: calc(100% * (1/5) - 5px - 1px) */
+}
+.dd-landing .our-offer-wrapper .slide-item:hover {
+  box-shadow: 0 0 7px 0 var(--bx-shadow-1);
+  -webkit-box-shadow: 0 0 7px 0 var(--bx-shadow-1);
+  -moz-box-shadow: 0 0 7px 0 var(--bx-shadow-1);
 }
 .signup-item ul li:first-child {
   margin-bottom: 8px;
