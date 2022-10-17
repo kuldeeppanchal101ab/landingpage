@@ -590,6 +590,9 @@ a:focus {
 .dd-landing #footer .footer-adv a {
   margin-right: 25px;
 }
+.dd-landing #footer .footer-adv a.p_p {
+  margin-right: 0;
+}
 .dd-landing #footer .social-icon {
   /* padding: 4px 8px; */
   border-radius: 5px;
@@ -1081,6 +1084,10 @@ a:focus {
   padding: 72px 0 210px !important;
 }
 
+.dd-landing .text-nc-1 {
+  color: var(--nc-1);
+}
+
 @media screen and (max-width: 767px) {
   .dd-landing .login .d-flex {
     -webkit-box-orient: vertical !important;
@@ -1339,6 +1346,9 @@ a:focus {
 .dd-landing .our-offer-wrapper .slide-item .heading-3 {
   margin-bottom: 0px;
 }
+.dd-landing .our-offer-wrapper .slide-item p {
+  font-size: 18px;
+}
 .dd-landing .our-offer-wrapper .slide-item {
   border: 1px solid var(--nc-6);
   height: 225px;
@@ -1357,6 +1367,10 @@ a:focus {
 .signup-item ul li:first-child {
   margin-bottom: 8px;
   /* margin-top: 8px; */
+}
+.how-it-works {
+  padding: 0 0 180px 0;
+  background: url(../images/footer-artwork.png) bottom no-repeat;
 }
 @media screen and (max-width: 1366px) {
   .dd-landing
@@ -1420,6 +1434,9 @@ a:focus {
   .banner-section .btn-container .btn-primary {
     font-size: 16px;
   }
+  .how-it-works {
+    background-position-x: 70%;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .banner-section .btn-container {
@@ -1436,9 +1453,4 @@ a:focus {
   .banner-section .btn-container .btn-primary {
     font-size: 16px;
   }
-}
-
-.how-it-works {
-  padding: 0 0 180px 0;
-  background: url(../images/footer-artwork.png) bottom no-repeat;
 }
