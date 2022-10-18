@@ -362,6 +362,11 @@ a:focus {
 .dd-landing .slick-track {
   display: flex;
 }
+ul.slick-dots
+{
+  justify-content: center;
+  width: 100%;
+}
 .dd-landing .slick-slide {
   height: auto;
 }
@@ -1293,11 +1298,14 @@ a:focus {
   margin: 0 0 0 -5px;
   justify-content: center;
 }
+.our-offer-container .heading-1 {
+  margin-bottom: 20px;
+}
 .our-offer-wrapper {
   display: flex !important;
   flex-wrap: wrap;
   margin:0 0 0 -20px;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .why-sign-up-container .slide-item {
@@ -1355,7 +1363,7 @@ a:focus {
   border: 1px solid var(--nc-6);
   min-height: 225px;
   padding: 20px 23.3px 19px 20px;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   /* margin: 0 0 20px 20px; */
   /* width: 253px !important; */
   margin: 0 0 20px 20px;
