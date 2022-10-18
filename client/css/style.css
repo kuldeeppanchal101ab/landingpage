@@ -1017,7 +1017,7 @@ a:focus {
 }
 /* Mobile - end */
 
-/* Custom themeing for hertz client */
+/* Custom themeing for client */
 #signupform .row {
   padding-top: 0px;
   padding-bottom: 25px;
@@ -1128,7 +1128,6 @@ a:focus {
 }
 .dd-landing .card .card-title {
   font-size: 18px;
-  font-weight: bold;
   margin-top: 0;
   color: var(--nc-1);
   margin-bottom: 6px;
