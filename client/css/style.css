@@ -79,6 +79,10 @@ body {
   flex-flow: column;
   height: 100%;
 }
+.small,
+small {
+  font-size: 12px;
+}
 * {
   -moz-transition: all 200ms ease-out;
   -o-transition: all 200ms ease-out;
